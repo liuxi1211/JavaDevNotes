@@ -1,0 +1,9 @@
+# 排除所有隐藏文件和隐藏目录
+.*
+
+# 但保留 .gitignore 本身（如果需要追踪它）
+!.gitignore
+
+# 如果还需要保留其他特定的隐藏文件，可以添加例外规则
+# !.editorconfig
+# !.eslintrc.json
